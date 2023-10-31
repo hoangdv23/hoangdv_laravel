@@ -1,0 +1,28 @@
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Đẩy sidebar ra khỏi màn hình ban đầu */
+    background-color: #333;
+    padding-top: 20px;
+    z-index: 1;
+    transition: left 0.3s; /* Sử dụng transition để tạo hiệu ứng slide in/out */
+}
+
+#sidebar.active {
+    left: 0; /* Khi sidebar được kích hoạt (được thu gọn) */
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px; /* Đặt khoảng cách giữa mục sidebar */
+    font-weight: bold; /* Màu đậm hơn */
+}
+
+#sidebar ul li a:hover {
+    background-color: #007bff; /* Màu nền khi hover */
+    color: white;
+}

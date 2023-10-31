@@ -1,0 +1,24 @@
+/* CSS tùy chỉnh cho header */
+header {
+    background-color: #b32c2c; /* Màu đen */
+    color: #e61b1b; /* Màu chữ trắng */
+    padding: 20px 0; /* Khoảng cách đệm bên trên và bên dưới */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+/* CSS cho logo (thay thế .navbar-brand bằng lớp hoặc id cụ thể của logo nếu cần) */
+.navbar-brand {
+    font-size: 24px; /* Kích thước font chữ */
+    font-weight: bold; /* Đậm */
+}
+
+/* CSS cho các liên kết trong thanh điều hướng */
+.navbar-nav .nav-link {
+    color: #fff; /* Màu chữ trắng */
+    margin: 0 10px; /* Khoảng cách giữa các liên kết */
+}
+
+/* CSS cho nút toggle trên thiết bị di động */
+.navbar-toggler-icon {
+    background-color: #fff; /* Màu chữ trắng */
+}
